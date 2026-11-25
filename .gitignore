@@ -1,0 +1,33 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the JVM target
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+*.hprof
+
+# Gradle files
+.gradle/
+build/
+.kotlin/
+
+# Local configuration file (sdk.dir, etc.)
+local.properties
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+.thumbs.db
+desktop.ini
+
+# Agent & IDE Artifacts
+.artifacts/
+*.artifact.md

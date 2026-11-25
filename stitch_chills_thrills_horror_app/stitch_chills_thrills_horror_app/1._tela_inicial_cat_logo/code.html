@@ -1,0 +1,460 @@
+<!DOCTYPE html><html class="dark" lang="pt-BR"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "primary-container": "#ff7518", "on-secondary": "#480081", "secondary-container": "#7701d0", "primary": "#ffb691", "tertiary-fixed-dim": "#dfb7ff", "surface": "#131313", "on-error-container": "#ffdad6", "on-tertiary-fixed-variant": "#690bac", "on-primary": "#552100", "secondary-fixed-dim": "#dcb8ff", "on-primary-container": "#5c2400", "on-background": "#e5e2e1", "inverse-primary": "#9e4300", "error-container": "#93000a", "on-tertiary-fixed": "#2d004f", "inverse-surface": "#e5e2e1", "surface-container-highest": "#353534", "on-surface-variant": "#e0c0b1", "error": "#ffb4ab", "on-primary-fixed": "#341100", "tertiary-container": "#c37fff", "inverse-on-surface": "#313030", "surface-container-lowest": "#0e0e0e", "on-secondary-fixed": "#2c0051", "surface-tint": "#ffb691", "primary-fixed-dim": "#ffb691", "on-surface": "#e5e2e1", "surface-variant": "#353534", "on-error": "#690005", "surface-container": "#201f1f", "on-secondary-fixed-variant": "#6700b5", "surface-bright": "#393939", "primary-fixed": "#ffdbcb", "on-primary-fixed-variant": "#783100", "on-secondary-container": "#dcb7ff", "on-tertiary-container": "#510089", "outline-variant": "#594236", "tertiary": "#dfb7ff", "outline": "#a88b7d", "background": "#131313", "surface-container-low": "#1c1b1b", "surface-dim": "#131313", "tertiary-fixed": "#f1daff", "on-tertiary": "#4b007e", "surface-container-high": "#2a2a2a", "secondary": "#dcb8ff", "secondary-fixed": "#efdbff" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "gutter": "1rem", "space-xl": "2rem", "margin-md": "1.5rem", "margin": "1rem", "space-md": "1rem", "space-sm": "0.5rem", "gutter-sm": "0.75rem", "space-lg": "1.5rem", "space-xs": "0.25rem" }, fontFamily: { "label-lg": ["Inter"], "headline-lg": ["Inter"], "display-lg": ["Inter"], "title-md": ["Inter"], "body-lg": ["Inter"], "headline-sm": ["Inter"], "label-sm": ["Inter"], "headline-md": ["Inter"], "display-lg-mobile": ["Inter"], "label-md": ["Inter"], "body-md": ["Inter"] }, fontSize: { "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "title-md": ["16px", { "lineHeight": "22px", "letterSpacing": "0.005em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md text-body-md flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)] pt-safe"><div class="h-16 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="HorroBoxd Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U3DRAvt5RthqVSpoiXxk5wPE4TfKew3BNLfu-dl9Mp__CJVwUJcXdigor4qn5GnMjEs8tBOJAIytCZc_y2FQRfAQk4VnUJSPivi-qhz9D7fO1jp8QciaUg8ew3ijwH7zMGcadk6aEkGryk1dOV7c-ArDSza9QfiZCDRLScnVit2TpmxdPdjit4xiDJ3aRcTWDVG_ZdRoaUkl5GWjtYH8jYJQKDa5mw5FdTcp3J2yM"><div class="flex flex-col"><span class="font-title-md text-title-md text-primary-container leading-none tracking-tight">HorroBoxd</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate max-w-[140px]">Início</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Buscar" class="w-12 h-12 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary-container transition-colors"><span class="material-symbols-outlined">search</span></button><div class="w-11 h-11 flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-container/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMRKwZyL9tw3fSxtbbw9ICHC5SkXOqWVRl7jQkDUZwWcYW-dmvxG-F9EfCNWplT50jicqhLOP-uqj3ntC1JmLwSkytOPRDK5f2zp-y7J3z5Xbeg7TUSQQSCBr9vxbKxpTPbOyfocPOFbASX7VtApdtKp_Lj_ioIbn4ubEd4LswDH-8QlJ3UsNXaeCQFOfH8hmlaqvjc1wLFK9qvhxdexmU6NC86ZuRyLo-0lGR_-U"></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Interactive Search Bar Section -->
+<section class="px-gutter pt-space-md pb-space-sm">
+<div class="relative flex items-center w-full bg-surface-container-low rounded-xl shadow-md transition-all duration-200 focus-within:shadow-[0_0_12px_rgba(255,117,24,0.35)]">
+<span class="material-symbols-outlined absolute left-space-md text-primary-container pointer-events-none text-[22px]">
+        search
+      </span>
+<input aria-label="Buscar filmes de terror ou séries" class="w-full h-[52px] pl-[50px] pr-12 bg-transparent text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/70 focus:outline-none focus:text-on-surface" id="catalog-search" placeholder="Buscar filmes de terror ou séries..." type="search">
+<button aria-label="Opções de filtros de terror" class="absolute right-1 w-12 h-12 flex items-center justify-center text-on-surface-variant hover:text-primary-container active:scale-95 transition-transform" id="filter-trigger" type="button">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</button>
+</div>
+</section>
+<!-- Horror Sub-Genre Filters (Scrollable Chips) -->
+<section aria-label="Categorias de Terror" class="py-space-sm">
+<div class="flex items-center gap-space-sm px-gutter overflow-x-auto no-scrollbar scroll-smooth" role="tablist">
+<button aria-selected="true" class="genre-chip shrink-0 min-h-[48px] px-space-md py-space-xs rounded-full bg-primary-container text-on-primary-container font-label-lg text-label-lg shadow-sm flex items-center gap-1.5 active:scale-95 transition-all" role="tab" style="color: rgb(18, 18, 18) !important;">
+<span class="material-symbols-outlined text-[18px]">local_fire_department</span>
+<span class="">Todos</span>
+</button>
+<button aria-selected="false" class="genre-chip shrink-0 min-h-[48px] px-space-md py-space-xs rounded-full bg-surface-container-high text-on-surface hover:text-primary-container font-label-lg text-label-lg flex items-center gap-1.5 active:scale-95 transition-all" role="tab">
+<span class="material-symbols-outlined text-[18px]">psychology</span>
+<span class="">Psicológico</span>
+</button>
+<button aria-selected="false" class="genre-chip shrink-0 min-h-[48px] px-space-md py-space-xs rounded-full bg-surface-container-high text-on-surface hover:text-primary-container font-label-lg text-label-lg flex items-center gap-1.5 active:scale-95 transition-all" role="tab">
+<span class="material-symbols-outlined text-[18px]">warning</span>
+<span class="">Slasher</span>
+</button>
+<button aria-selected="false" class="genre-chip shrink-0 min-h-[48px] px-space-md py-space-xs rounded-full bg-surface-container-high text-on-surface hover:text-primary-container font-label-lg text-label-lg flex items-center gap-1.5 active:scale-95 transition-all" role="tab">
+<span class="material-symbols-outlined text-[18px]">auto_fix</span>
+<span class="">Sobrenatural</span>
+</button>
+<button aria-selected="false" class="genre-chip shrink-0 min-h-[48px] px-space-md py-space-xs rounded-full bg-surface-container-high text-on-surface hover:text-primary-container font-label-lg text-label-lg flex items-center gap-1.5 active:scale-95 transition-all" role="tab">
+<span class="material-symbols-outlined text-[18px]">forest</span>
+<span class="">Folk Horror</span>
+</button>
+<button aria-selected="false" class="genre-chip shrink-0 min-h-[48px] px-space-md py-space-xs rounded-full bg-surface-container-high text-on-surface hover:text-primary-container font-label-lg text-label-lg flex items-center gap-1.5 active:scale-95 transition-all" role="tab">
+<span class="material-symbols-outlined text-[18px]">skull</span>
+<span class="">Monstros</span>
+</button>
+<button aria-selected="false" class="genre-chip shrink-0 min-h-[48px] px-space-md py-space-xs rounded-full bg-surface-container-high text-on-surface hover:text-primary-container font-label-lg text-label-lg flex items-center gap-1.5 active:scale-95 transition-all" role="tab">
+<span class="material-symbols-outlined text-[18px]">videocam</span>
+<span class="">Clássicos</span>
+</button>
+</div>
+</section>
+<!-- Featured Carousel: Destaques da Noite -->
+<section aria-labelledby="heading-featured" class="pt-space-md pb-space-sm">
+<div class="flex items-center justify-between px-gutter mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container text-[26px]">candle</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold tracking-tight" id="heading-featured">
+          Destaques da Noite
+        </h2>
+</div>
+<span class="font-label-sm text-label-sm text-primary-container uppercase tracking-wider font-semibold">
+        Curadoria Sinistra
+      </span>
+</div>
+<!-- 2:3 Horizontal Scroll Snap Reel -->
+<div class="flex gap-space-md px-gutter overflow-x-auto snap-x snap-mandatory no-scrollbar pb-2">
+<!-- Card 1: O Iluminado -->
+<article class="snap-start shrink-0 w-[184px] bg-surface-container rounded-xl overflow-hidden shadow-lg flex flex-col group relative">
+<div class="relative w-full aspect-[2/3] bg-surface-container-highest overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="A claustrophobic cinematic poster evoking Stanley Kubrick's Overlook Hotel. Symmetrical dark wood corridor bathed in muted vintage tungsten lighting with eerie geometrical patterned carpet. Shadows stretch across doorways in pure atmospheric tension, captured in grain 35mm film aesthetic with deep obsidian tones." loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJm2ZsCK9MW5RCAZsC-oSdycnXm_SLYAme6_8lIU2q4wwvzN5HKQ9SuLXieRkhb5i-bIymrJfjrcSzAu9Tq3780hapTrkwyv5yy8sIbIi-0csuNsPgfUJV9Z0nJsmf_uYjxKSqhF7VoaoKXERld7KlG6BxRFWLyFzqe2Qfny552hSWPkeQE1rqhWeblUs2HfK7EF-yJ-NCNhSAnQUg4GKojaU6u5Y53l40YhDBXGk">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-black/60 pointer-events-none"></div>
+<!-- Rating Badge (Mystic Violet) -->
+<div class="absolute top-2.5 left-2.5 bg-secondary-container text-white font-label-sm text-label-sm px-2 py-1 rounded-full flex items-center gap-1 shadow-md" style="font-weight: 700; background-color: rgb(192, 132, 252) !important; color: rgb(18, 18, 18) !important;">
+<span class="material-symbols-outlined text-primary-container text-[14px]" style="font-variation-settings: &quot;FILL&quot; 1; color: rgb(18, 18, 18) !important;">star</span>
+<span class="">8.4</span>
+</div>
+<!-- Quick Bookmark Button -->
+<button aria-label="Salvar O Iluminado na Watchlist" class="bookmark-btn absolute top-2.5 right-2.5 w-12 h-12 flex items-center justify-center rounded-full bg-surface-container-lowest/80 text-on-surface hover:text-primary-container backdrop-blur-md active:scale-90 transition-transform" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+</button>
+<!-- Subgenre Tag Pill -->
+<div class="absolute bottom-2.5 left-2.5 right-2.5 flex flex-wrap gap-1">
+<span class="bg-surface-container-lowest/90 text-primary-fixed-dim font-label-sm text-label-sm px-2 py-0.5 rounded backdrop-blur-sm truncate">
+              Terror Psicológico
+            </span>
+</div>
+</div>
+<div class="p-space-sm flex flex-col justify-between flex-1">
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold leading-snug line-clamp-1">
+              O Iluminado
+            </h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">
+              1980 • Stanley Kubrick
+            </p>
+</div>
+<div class="mt-space-sm pt-space-xs border-t border-surface-container-highest/40 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary-container font-semibold">Cult Classic</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">play_circle</span>
+</div>
+</div>
+</article>
+<!-- Card 2: Hereditário -->
+<article class="snap-start shrink-0 w-[184px] bg-surface-container rounded-xl overflow-hidden shadow-lg flex flex-col group relative">
+<div class="relative w-full aspect-[2/3] bg-surface-container-highest overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="Chilling modern folk horror film still showing an intricate wooden miniature dollhouse placed in a dim room under cold moonlight. A sinister occult silhouette hovers near the staircase. Heavy atmospheric fog and dark purple-tinged shadows fill the room, captured in high fidelity horror cinema cinematography." loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOyaaT7d0rfg0HwSC59FN5muQUAvkAMEqZY00saKXYvy-OiRhMPT0w63-ZS1STp0jcrd6mDixE0QNATk5GI1cN2UX8QeNqYXTWkKJoNWSYwFixFvr2M9DRVHHHVEFsVqTebIY5zbTKdkAp_oNErUntUq2yLrs33CDZs38wLzs7vBAtdS0PQOU6fVrpsf6DvlUje62SbdZxfYu6NLFFCiuCV-7M1TDe6SvYHGnZ9Y8">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-black/60 pointer-events-none"></div>
+<!-- Rating Badge -->
+<div class="absolute top-2.5 left-2.5 bg-secondary-container text-white font-label-sm text-label-sm px-2 py-1 rounded-full flex items-center gap-1 shadow-md" style="font-weight: 700; background-color: rgb(192, 132, 252) !important; color: rgb(18, 18, 18) !important;">
+<span class="material-symbols-outlined text-primary-container text-[14px]" style="font-variation-settings: &quot;FILL&quot; 1; color: rgb(18, 18, 18) !important;">star</span>
+<span class="">7.3</span>
+</div>
+<!-- Quick Bookmark Button -->
+<button aria-label="Salvar Hereditário na Watchlist" class="bookmark-btn absolute top-2.5 right-2.5 w-12 h-12 flex items-center justify-center rounded-full bg-surface-container-lowest/80 text-on-surface hover:text-primary-container backdrop-blur-md active:scale-90 transition-transform" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+</button>
+<!-- Subgenre Tag Pill -->
+<div class="absolute bottom-2.5 left-2.5 right-2.5 flex flex-wrap gap-1">
+<span class="bg-surface-container-lowest/90 text-primary-fixed-dim font-label-sm text-label-sm px-2 py-0.5 rounded backdrop-blur-sm truncate">
+              Ocultismo Familiar
+            </span>
+</div>
+</div>
+<div class="p-space-sm flex flex-col justify-between flex-1">
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold leading-snug line-clamp-1">
+              Hereditário
+            </h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">
+              2018 • Ari Aster
+            </p>
+</div>
+<div class="mt-space-sm pt-space-xs border-t border-surface-container-highest/40 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary font-semibold">Perturbador</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">play_circle</span>
+</div>
+</div>
+</article>
+<!-- Card 3: Pânico VI -->
+<article class="snap-start shrink-0 w-[184px] bg-surface-container rounded-xl overflow-hidden shadow-lg flex flex-col group relative">
+<div class="relative w-full aspect-[2/3] bg-surface-container-highest overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="Moody cinematic slasher visual featuring the distressed iconic white ghost mask in a dark, rain-streaked New York subway car. Neon reflections of vermilion red and pumpkin orange shimmer on wet metallic surfaces, evoking suspense and relentless midnight urban slasher dread." loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0GUxkxH9gEDZq74Za71FzZtgKHpDyxA2UXk6X8sPbWy_QxFAMI9woE7BV-LYN07KQWFYS62v6CaONRQKjZieZIoi3TmHb4zDLi_ibxg8d3ov4afn7yvb01SxuA9cJu_p12mdL0a-qdwZXscGORzKYLa-VfW3BIlAE74ORR3zjF5bSrIkSQXaq1g58GyHef4wlaOEEWmpqsC_H4tVtPJ3n1fq_cHL1WMkOwATqq9M">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-black/60 pointer-events-none"></div>
+<!-- Rating Badge -->
+<div class="absolute top-2.5 left-2.5 bg-secondary-container text-white font-label-sm text-label-sm px-2 py-1 rounded-full flex items-center gap-1 shadow-md" style="font-weight: 700; background-color: rgb(192, 132, 252) !important; color: rgb(18, 18, 18) !important;">
+<span class="material-symbols-outlined text-primary-container text-[14px]" style="font-variation-settings: &quot;FILL&quot; 1; color: rgb(18, 18, 18) !important;">star</span>
+<span class="">6.6</span>
+</div>
+<!-- Quick Bookmark Button -->
+<button aria-label="Salvar Pânico VI na Watchlist" class="bookmark-btn absolute top-2.5 right-2.5 w-12 h-12 flex items-center justify-center rounded-full bg-surface-container-lowest/80 text-on-surface hover:text-primary-container backdrop-blur-md active:scale-90 transition-transform" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+</button>
+<!-- Subgenre Tag Pill -->
+<div class="absolute bottom-2.5 left-2.5 right-2.5 flex flex-wrap gap-1">
+<span class="bg-surface-container-lowest/90 text-primary-fixed-dim font-label-sm text-label-sm px-2 py-0.5 rounded backdrop-blur-sm truncate">
+              Slasher Moderno
+            </span>
+</div>
+</div>
+<div class="p-space-sm flex flex-col justify-between flex-1">
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold leading-snug line-clamp-1">
+              Pânico VI
+            </h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">
+              2023 • Matt Bettinelli-Olpin
+            </p>
+</div>
+<div class="mt-space-sm pt-space-xs border-t border-surface-container-highest/40 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary-container font-semibold">Tensão Máxima</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">play_circle</span>
+</div>
+</div>
+</article>
+<!-- Card 4: Invocação do Mal -->
+<article class="snap-start shrink-0 w-[184px] bg-surface-container rounded-xl overflow-hidden shadow-lg flex flex-col group relative">
+<div class="relative w-full aspect-[2/3] bg-surface-container-highest overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="Haunted cellar scene with a vintage porcelain doll seated in a decaying wicker chair. A beam of dim flashlight cuts through thick airborne dust particles in a dark, oppressive subterranean basement. Sepia and charcoal contrast cinematic framing with eerie occult undertones." loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2dKbfp4YYilf6N6T4v3bnsHRY2QbZDYcEJRa25Bc1uXzGZREvsOc47GtmS5-rZjXtWY9JWl84AHiBJ0TJ438t4df-vgiQoJvTmy4nQMd399ZFbNEiYWev3a2g5pjaYjKxwJwD6J1DEWnkfQFyqgKWbcMi1pr494zQ04_iVdv1ucZxzY5ulBDT_T8WMp6yeSqYShayDD2IZwhhNgDmFxo3cXRNk8Ox0rKmC_ZNVjY">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-black/60 pointer-events-none"></div>
+<!-- Rating Badge -->
+<div class="absolute top-2.5 left-2.5 bg-secondary-container text-white font-label-sm text-label-sm px-2 py-1 rounded-full flex items-center gap-1 shadow-md" style="font-weight: 700; background-color: rgb(192, 132, 252) !important; color: rgb(18, 18, 18) !important;">
+<span class="material-symbols-outlined text-primary-container text-[14px]" style="font-variation-settings: &quot;FILL&quot; 1; color: rgb(18, 18, 18) !important;">star</span>
+<span class="">7.5</span>
+</div>
+<!-- Quick Bookmark Button -->
+<button aria-label="Salvar Invocação do Mal na Watchlist" class="bookmark-btn absolute top-2.5 right-2.5 w-12 h-12 flex items-center justify-center rounded-full bg-surface-container-lowest/80 text-on-surface hover:text-primary-container backdrop-blur-md active:scale-90 transition-transform" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+</button>
+<!-- Subgenre Tag Pill -->
+<div class="absolute bottom-2.5 left-2.5 right-2.5 flex flex-wrap gap-1">
+<span class="bg-surface-container-lowest/90 text-primary-fixed-dim font-label-sm text-label-sm px-2 py-0.5 rounded backdrop-blur-sm truncate">
+              Sobrenatural
+            </span>
+</div>
+</div>
+<div class="p-space-sm flex flex-col justify-between flex-1">
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold leading-snug line-clamp-1">
+              Invocação do Mal
+            </h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">
+              2013 • James Wan
+            </p>
+</div>
+<div class="mt-space-sm pt-space-xs border-t border-surface-container-highest/40 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary-container font-semibold">Casos Warren</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">play_circle</span>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Interactive Daily Fright Meter / Delight Widget -->
+
+<!-- Recommended Catalog (Vertical Detailed Cards) -->
+<section aria-labelledby="heading-catalog" class="px-gutter pt-space-md pb-space-xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container text-[24px]">view_list</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold tracking-tight" id="heading-catalog">
+          Catálogo Recomendado
+        </h2>
+</div>
+<button class="min-h-[48px] px-space-sm flex items-center gap-1 font-label-md text-label-md text-on-surface-variant hover:text-primary-container transition-colors" type="button">
+<span class="">Ordenar</span>
+<span class="material-symbols-outlined text-[18px]">unfold_more</span>
+</button>
+</div>
+<!-- Recommended Item 1: Fale Comigo -->
+<article class="bg-surface-container rounded-xl p-space-md shadow-md flex flex-col gap-space-sm transition-all duration-200 hover:bg-surface-container-high">
+<div class="flex gap-space-md min-w-0">
+<!-- 2:3 Vertical Sharp Poster -->
+<div class="shrink-0 w-24 aspect-[2/3] rounded-lg overflow-hidden bg-surface-container-highest relative shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Ceramic embalmed occult hand prop set against dark ominous room ambiance with high grain cinematic film textures and eerie lighting accents." loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiuBE_GLWYNgd-5DUoXG85AJWpp6ZP3bxbgwFtbggfe8yHY_2-6-EUzgP44EfLyrzFfR8bPyn6Irx36GWKoy8V2u_-4vxqxYt2eY0T_tl6woQ8Qx105LExxOzbixyCCftc44TTMWXW7uC1mQBA2HX-TtHKY8yv2X5tW4S06BUaRToYE6D3H8jxljOYbEn0G5_lX1AqA5VDlUFnwp4JUn4d6IBC8f2k4saSOuhN0ZI">
+<div class="absolute bottom-1 right-1 bg-surface-container-lowest/90 px-1.5 py-0.5 rounded text-[10px] font-bold text-on-surface">
+            HD
+          </div>
+</div>
+<!-- Info Column -->
+<div class="flex flex-col justify-between flex-1 min-w-0">
+<div>
+<div class="flex items-start justify-between gap-1">
+<h3 class="font-title-md text-title-md text-on-surface font-bold leading-tight truncate">
+                Fale Comigo
+              </h3>
+<!-- Classification Pill -->
+<span class="shrink-0 font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-error-container text-on-error-container font-bold">
+                +16
+              </span>
+</div>
+<!-- Metadata Row -->
+<div class="flex items-center gap-2 mt-1 font-label-md text-label-md text-on-surface-variant">
+<span class="">2023</span>
+<span class="">•</span>
+<span class="">1h 35m</span>
+<span class="">•</span>
+<span class="text-tertiary font-semibold">Possessão</span>
+</div>
+<!-- TMDb Rating with Yellow/Orange Star -->
+<div class="flex items-center gap-1 mt-1.5">
+<span class="material-symbols-outlined text-primary-container text-[16px]" style="font-variation-settings: &quot;FILL&quot; 1;">
+                star
+              </span>
+<span class="font-label-lg text-label-lg font-bold text-primary-container">
+                7.4/10
+              </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-0.5">TMDb</span>
+</div>
+</div>
+<!-- Short Synopsis with High Contrast Readability -->
+<p class="font-body-md text-body-md text-on-surface line-clamp-2 mt-1 leading-relaxed">
+            Jovens descobrem como conjurar espíritos usando uma mão embalsamada antiga, até que um deles vai longe demais e abre portas proibidas.
+          </p>
+</div>
+</div>
+<!-- Bottom Action Row: Generous Touch Target (Min 48px) -->
+<div class="flex items-center justify-between pt-space-xs mt-1 border-t border-surface-container-highest/30">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span class="">Adicionado recentemente</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<button aria-label="Salvar Fale Comigo" class="bookmark-btn min-h-[48px] min-w-[48px] px-2 flex items-center justify-center rounded-lg bg-surface-container-highest text-on-surface hover:text-primary-container active:scale-95 transition-transform" type="button">
+<span class="material-symbols-outlined text-[22px]">bookmark_add</span>
+</button>
+<button class="min-h-[48px] px-space-md bg-primary-container text-on-primary-container rounded-lg font-label-lg text-label-lg font-bold flex items-center gap-1.5 shadow active:scale-95 transition-transform" type="button" style="color: rgb(18, 18, 18) !important;">
+<span class="material-symbols-outlined text-[20px]">info</span>
+<span class="">Detalhes</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Recommended Item 2: A Bruxa -->
+<article class="bg-surface-container rounded-xl p-space-md shadow-md flex flex-col gap-space-sm transition-all duration-200 hover:bg-surface-container-high">
+<div class="flex gap-space-md min-w-0">
+<!-- 2:3 Vertical Sharp Poster -->
+<div class="shrink-0 w-24 aspect-[2/3] rounded-lg overflow-hidden bg-surface-container-highest relative shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Historical New England seventeenth-century dark forest edge with solitary ram Black Phillip standing in eerie cold gray fog. Muted desaturated color grading with stark black shadows." loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAR_vqr12V0C6fmNmNa62rAAAGDzf2MaLkcRJOg6sKnMRdd2AfL9z47561uIJJ7Af-9aNHtxI2OhYzoW9PC8BVO01c0mhO7bMZTdOU4yqlVCpiMCCUS-L9kKTR1B92nlglrcxi4ObAREpJbM6EkHyPW75y2oo2dncPdUqrHsUE3MqOkOFzgAlLWaoVBdkXDqzUkKnWCKZsYdLJsBF-CJRtZzaIpEsgBtEMmn72zrnQ">
+<div class="absolute bottom-1 right-1 bg-surface-container-lowest/90 px-1.5 py-0.5 rounded text-[10px] font-bold text-on-surface">
+            4K
+          </div>
+</div>
+<!-- Info Column -->
+<div class="flex flex-col justify-between flex-1 min-w-0">
+<div>
+<div class="flex items-start justify-between gap-1">
+<h3 class="font-title-md text-title-md text-on-surface font-bold leading-tight truncate">
+                A Bruxa
+              </h3>
+<!-- Classification Pill -->
+<span class="shrink-0 font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-error-container text-on-error-container font-bold">
+                +16
+              </span>
+</div>
+<!-- Metadata Row -->
+<div class="flex items-center gap-2 mt-1 font-label-md text-label-md text-on-surface-variant">
+<span class="">2015</span>
+<span class="">•</span>
+<span class="">1h 32m</span>
+<span class="">•</span>
+<span class="text-tertiary font-semibold">Folk Horror</span>
+</div>
+<!-- TMDb Rating with Yellow/Orange Star -->
+<div class="flex items-center gap-1 mt-1.5">
+<span class="material-symbols-outlined text-primary-container text-[16px]" style="font-variation-settings: &quot;FILL&quot; 1;">
+                star
+              </span>
+<span class="font-label-lg text-label-lg font-bold text-primary-container">
+                7.0/10
+              </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-0.5">TMDb</span>
+</div>
+</div>
+<!-- Short Synopsis -->
+<p class="font-body-md text-body-md text-on-surface line-clamp-2 mt-1 leading-relaxed">
+            Na Nova Inglaterra de 1630, uma família puritana banida é despedaçada por forças obscuras que habitam os limites da floresta isolada.
+          </p>
+</div>
+</div>
+<!-- Bottom Action Row -->
+<div class="flex items-center justify-between pt-space-xs mt-1 border-t border-surface-container-highest/30">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span class="">A24 Seleção Oficial</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<button aria-label="Salvar A Bruxa" class="bookmark-btn min-h-[48px] min-w-[48px] px-2 flex items-center justify-center rounded-lg bg-surface-container-highest text-on-surface hover:text-primary-container active:scale-95 transition-transform" type="button">
+<span class="material-symbols-outlined text-[22px]">bookmark_add</span>
+</button>
+<button class="min-h-[48px] px-space-md bg-primary-container text-on-primary-container rounded-lg font-label-lg text-label-lg font-bold flex items-center gap-1.5 shadow active:scale-95 transition-transform" type="button" style="color: rgb(18, 18, 18) !important;">
+<span class="material-symbols-outlined text-[20px]">info</span>
+<span class="">Detalhes</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Recommended Item 3: Corra! (Get Out) -->
+<article class="bg-surface-container rounded-xl p-space-md shadow-md flex flex-col gap-space-sm transition-all duration-200 hover:bg-surface-container-high">
+<div class="flex gap-space-md min-w-0">
+<!-- 2:3 Vertical Sharp Poster -->
+<div class="shrink-0 w-24 aspect-[2/3] rounded-lg overflow-hidden bg-surface-container-highest relative shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Intense high contrast portrait capturing wide reflective eyes filled with dread and tears falling under hypnotic porcelain teacup lighting in a dark suburban mansion." loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDbhhLvuT3u_iPhDLNB_Nb30YdhUyGwy-ed1ZBUE3OuIVECln1FAA9CP0paELjB5cL_loIoqKGIkAa4gb20bOYgCiBtQkqvqocDt82cZizWe8PE4XJdXBeMZXzcJ8BACH3bbb_fu5AFyPSP7h5yH5vCp9v8tasw2p5hEyBmHMZVwY2QwquwVFUojX283tMTY3TEcO--W_31nQdklWlTtYhwDOWINQFurmKQbmHLQg">
+<div class="absolute bottom-1 right-1 bg-surface-container-lowest/90 px-1.5 py-0.5 rounded text-[10px] font-bold text-on-surface">
+            4K
+          </div>
+</div>
+<!-- Info Column -->
+<div class="flex flex-col justify-between flex-1 min-w-0">
+<div>
+<div class="flex items-start justify-between gap-1">
+<h3 class="font-title-md text-title-md text-on-surface font-bold leading-tight truncate">
+                Corra!
+              </h3>
+<!-- Classification Pill -->
+<span class="shrink-0 font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-error-container text-on-error-container font-bold">
+                +16
+              </span>
+</div>
+<!-- Metadata Row -->
+<div class="flex items-center gap-2 mt-1 font-label-md text-label-md text-on-surface-variant">
+<span class="">2017</span>
+<span class="">•</span>
+<span class="">1h 44m</span>
+<span class="">•</span>
+<span class="text-tertiary font-semibold">Suspense</span>
+</div>
+<!-- TMDb Rating with Yellow/Orange Star -->
+<div class="flex items-center gap-1 mt-1.5">
+<span class="material-symbols-outlined text-primary-container text-[16px]" style="font-variation-settings: &quot;FILL&quot; 1;">
+                star
+              </span>
+<span class="font-label-lg text-label-lg font-bold text-primary-container">
+                7.8/10
+              </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-0.5">TMDb</span>
+</div>
+</div>
+<!-- Short Synopsis -->
+<p class="font-body-md text-body-md text-on-surface line-clamp-2 mt-1 leading-relaxed">
+            Um jovem negro viaja para conhecer a família de sua namorada branca em uma propriedade remota, revelando segredos profundamente perturbadores.
+          </p>
+</div>
+</div>
+<!-- Bottom Action Row -->
+<div class="flex items-center justify-between pt-space-xs mt-1 border-t border-surface-container-highest/30">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">stars</span>
+<span class="">Vencedor do Oscar</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<button aria-label="Salvar Corra! na Watchlist" class="bookmark-btn min-h-[48px] min-w-[48px] px-2 flex items-center justify-center rounded-lg bg-surface-container-highest text-on-surface hover:text-primary-container active:scale-95 transition-transform" type="button">
+<span class="material-symbols-outlined text-[22px]">bookmark_add</span>
+</button>
+<button class="min-h-[48px] px-space-md bg-primary-container text-on-primary-container rounded-lg font-label-lg text-label-lg font-bold flex items-center gap-1.5 shadow active:scale-95 transition-transform" type="button" style="color: rgb(18, 18, 18) !important;">
+<span class="material-symbols-outlined text-[20px]">info</span>
+<span class="">Detalhes</span>
+</button>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script>
+  // Simple client-side micro-interactions for tactile delight
+  document.querySelectorAll('.genre-chip').forEach(button => {
+    button.addEventListener('click', () => {
+      document.querySelectorAll('.genre-chip').forEach(b => {
+        b.setAttribute('aria-selected', 'false');
+        b.className = 'genre-chip shrink-0 min-h-[48px] px-space-md py-space-xs rounded-full bg-surface-container-high text-on-surface hover:text-primary-container font-label-lg text-label-lg flex items-center gap-1.5 active:scale-95 transition-all';
+      });
+      button.setAttribute('aria-selected', 'true');
+      button.className = 'genre-chip shrink-0 min-h-[48px] px-space-md py-space-xs rounded-full bg-primary-container text-on-primary-container font-label-lg text-label-lg shadow-sm flex items-center gap-1.5 active:scale-95 transition-all';
+    });
+  });
+
+  // Bookmark toggle state
+  document.querySelectorAll('.bookmark-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const icon = btn.querySelector('.material-symbols-outlined');
+      if (icon) {
+        if (icon.innerText.includes('border') || icon.innerText.includes('add')) {
+          icon.innerText = 'bookmark';
+          icon.style.fontVariationSettings = "'FILL' 1";
+          btn.classList.add('text-primary-container');
+        } else {
+          icon.innerText = 'bookmark_border';
+          icon.style.fontVariationSettings = "'FILL' 0";
+          btn.classList.remove('text-primary-container');
+        }
+      }
+    });
+  });
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-4px_24px_rgba(0,0,0,0.6)]" data-active-classes="text-primary-container font-headline-sm"><div class="flex items-center justify-around h-16 px-gutter"><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-surface-variant transition-colors" data-path="inicio" href="#"><span class="material-symbols-outlined text-[24px]">movie</span><span class="font-label-sm text-label-sm mt-0.5">Início</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-surface-variant transition-colors" data-path="watchlist" href="#"><span class="material-symbols-outlined text-[24px]">lock</span><span class="font-label-sm text-label-sm mt-0.5">Watchlist</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-surface-variant transition-colors" data-path="perfil" href="#"><span class="material-symbols-outlined text-[24px]">person</span><span class="font-label-sm text-label-sm mt-0.5">Perfil</span></a></div></nav>
+
+
+
+</body></html>

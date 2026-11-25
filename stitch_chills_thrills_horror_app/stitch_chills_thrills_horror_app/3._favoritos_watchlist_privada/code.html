@@ -1,0 +1,397 @@
+<!DOCTYPE html><html class="dark" lang="pt-BR"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "primary-container": "#ff7518", "on-secondary": "#480081", "secondary-container": "#7701d0", "primary": "#ffb691", "tertiary-fixed-dim": "#dfb7ff", "surface": "#131313", "on-error-container": "#ffdad6", "on-tertiary-fixed-variant": "#690bac", "on-primary": "#552100", "secondary-fixed-dim": "#dcb8ff", "on-primary-container": "#5c2400", "on-background": "#e5e2e1", "inverse-primary": "#9e4300", "error-container": "#93000a", "on-tertiary-fixed": "#2d004f", "inverse-surface": "#e5e2e1", "surface-container-highest": "#353534", "on-surface-variant": "#e0c0b1", "error": "#ffb4ab", "on-primary-fixed": "#341100", "tertiary-container": "#c37fff", "inverse-on-surface": "#313030", "surface-container-lowest": "#0e0e0e", "on-secondary-fixed": "#2c0051", "surface-tint": "#ffb691", "primary-fixed-dim": "#ffb691", "on-surface": "#e5e2e1", "surface-variant": "#353534", "on-error": "#690005", "surface-container": "#201f1f", "on-secondary-fixed-variant": "#6700b5", "surface-bright": "#393939", "primary-fixed": "#ffdbcb", "on-primary-fixed-variant": "#783100", "on-secondary-container": "#dcb7ff", "on-tertiary-container": "#510089", "outline-variant": "#594236", "tertiary": "#dfb7ff", "outline": "#a88b7d", "background": "#131313", "surface-container-low": "#1c1b1b", "surface-dim": "#131313", "tertiary-fixed": "#f1daff", "on-tertiary": "#4b007e", "surface-container-high": "#2a2a2a", "secondary": "#dcb8ff", "secondary-fixed": "#efdbff" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "gutter": "1rem", "space-xl": "2rem", "margin-md": "1.5rem", "margin": "1rem", "space-md": "1rem", "space-sm": "0.5rem", "gutter-sm": "0.75rem", "space-lg": "1.5rem", "space-xs": "0.25rem" }, fontFamily: { "label-lg": ["Inter"], "headline-lg": ["Inter"], "display-lg": ["Inter"], "title-md": ["Inter"], "body-lg": ["Inter"], "headline-sm": ["Inter"], "label-sm": ["Inter"], "headline-md": ["Inter"], "display-lg-mobile": ["Inter"], "label-md": ["Inter"], "body-md": ["Inter"] }, fontSize: { "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "title-md": ["16px", { "lineHeight": "22px", "letterSpacing": "0.005em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md text-body-md flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)] pt-safe"><div class="h-16 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="HorroBoxd Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U3DRAvt5RthqVSpoiXxk5wPE4TfKew3BNLfu-dl9Mp__CJVwUJcXdigor4qn5GnMjEs8tBOJAIytCZc_y2FQRfAQk4VnUJSPivi-qhz9D7fO1jp8QciaUg8ew3ijwH7zMGcadk6aEkGryk1dOV7c-ArDSza9QfiZCDRLScnVit2TpmxdPdjit4xiDJ3aRcTWDVG_ZdRoaUkl5GWjtYH8jYJQKDa5mw5FdTcp3J2yM"><div class="flex flex-col"><span class="font-title-md text-title-md text-primary-container leading-none tracking-tight">HorroBoxd</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate max-w-[140px]">Watchlist</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Buscar" class="w-12 h-12 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary-container transition-colors"><span class="material-symbols-outlined">search</span></button><div class="w-11 h-11 flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-container/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMRKwZyL9tw3fSxtbbw9ICHC5SkXOqWVRl7jQkDUZwWcYW-dmvxG-F9EfCNWplT50jicqhLOP-uqj3ntC1JmLwSkytOPRDK5f2zp-y7J3z5Xbeg7TUSQQSCBr9vxbKxpTPbOyfocPOFbASX7VtApdtKp_Lj_ioIbn4ubEd4LswDH-8QlJ3UsNXaeCQFOfH8hmlaqvjc1wLFK9qvhxdexmU6NC86ZuRyLo-0lGR_-U"></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full px-gutter py-space-md gap-space-lg">
+<!-- Header Contextual -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary-container text-[20px]" style="font-variation-settings: &quot;FILL&quot; 1;">lock</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary-container">Watchlist SECRETA</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Minha Lista Secreta</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Filmes e séries salvos para as madrugadas sombrias.</p>
+</div>
+<!-- Cartão de Controle de Biometria / Segurança Tátil -->
+<div class="relative overflow-hidden bg-surface-container-high rounded-xl p-space-md shadow-xl flex flex-col gap-space-md transition-all duration-300" id="bio-security-card">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="relative w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-primary-container transition-transform" id="bio-icon-ring">
+<span class="material-symbols-outlined text-[28px] animate-pulse">fingerprint</span>
+<span class="absolute inset-0 rounded-full bg-primary-container/10"></span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-title-md text-title-md text-on-surface">Protegido por Biometria</span>
+<span class="material-symbols-outlined text-[16px] text-tertiary">verified_user</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary" id="session-status-badge">3 itens desbloqueados nesta sessão</span>
+</div>
+</div>
+<button aria-label="Informações de Privacidade" class="w-12 h-12 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface active:scale-95 transition-transform" id="bio-info-btn">
+<span class="material-symbols-outlined text-[20px]">info</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed" id="bio-security-desc">
+      Autenticação Biométrica Requerida para Desbloquear Sinopses Ocultas e Anotações Pessoais.
+    </p>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<button class="flex-1 min-h-[48px] px-space-md bg-primary-container hover:bg-primary text-surface-container-lowest font-headline-sm text-headline-sm rounded-xl flex items-center justify-center gap-space-sm active:scale-95 transition-transform shadow-md" id="bio-toggle-btn">
+<span class="material-symbols-outlined text-[24px] text-surface-container-lowest">fingerprint</span>
+<span id="bio-btn-label" class="text-surface-container-lowest">Desbloquear com Biometria / Touch ID</span>
+</button>
+</div>
+</div>
+<!-- Barra de Filtros e Ordenação -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between gap-space-sm">
+<!-- Filtros em Tabs Rápidas -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-1" role="tablist">
+<button aria-selected="true" class="filter-tab min-h-[48px] px-space-md rounded-full bg-primary-container text-surface-container-lowest font-label-lg text-label-lg flex items-center justify-center shrink-0 shadow-sm transition-colors" id="filter-all" role="tab">
+          Todos (3)
+        </button>
+<button aria-selected="false" class="filter-tab min-h-[48px] px-space-md rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg flex items-center justify-center shrink-0 transition-colors" id="filter-watched" role="tab">
+          Assistidos (1)
+        </button>
+<button aria-selected="false" class="filter-tab min-h-[48px] px-space-md rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg flex items-center justify-center shrink-0 transition-colors" id="filter-towatch" role="tab">
+          Para Ver (2)
+        </button>
+</div>
+<!-- Botão de Ordenação de 48px -->
+<button aria-label="Ordenar Lista" class="min-w-[48px] min-h-[48px] h-12 w-12 rounded-xl bg-surface-container text-on-surface-variant hover:text-primary-container flex items-center justify-center shrink-0 active:scale-95 transition-transform" id="sort-trigger">
+<span class="material-symbols-outlined text-[22px]">swap_vert</span>
+</button>
+</div>
+</div>
+<!-- Feedback Toast Dinâmico para Desbloqueio e Deleção -->
+<div class="hidden min-h-[48px] px-space-md py-space-xs rounded-xl bg-secondary-container text-on-secondary-container font-label-lg text-label-lg flex items-center justify-between shadow-lg" id="secret-toast">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px]">lock_open</span>
+<span id="toast-message" class="">Cofre biométrico liberado com sucesso.</span>
+</div>
+<button aria-label="Fechar aviso" class="min-w-[48px] min-h-[48px] flex items-center justify-center text-on-secondary-container" id="toast-close">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<!-- Lista Vertical de Cards -->
+<div class="flex flex-col gap-space-md" id="secret-items-list">
+<!-- Item 1: O Massacre da Serra Elétrica -->
+<article class="secret-item bg-surface-container rounded-xl p-space-md shadow-md flex flex-col gap-space-sm transition-all duration-200" data-category="watched" data-score="7.9">
+<div class="flex items-start gap-space-md">
+<!-- Poster Thumbnail -->
+<div class="relative w-20 h-28 rounded-lg overflow-hidden shrink-0 bg-surface-container-highest shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Vintage 1974 horror movie poster aesthetic showing an isolated weathered Texas farmhouse bathed in ominous burnt orange sunset light with deep dramatic shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCyHm6O6l6N8wXWLgIZTrX6OxjIRv33attz3yT1Y_s0oR9KjxikhMef1zZyHn968Ngcsb8PSCJ01PYsQhzEWvUwUKHliIJH_ubqCMTDw2TF38OQqUwYKnbfOuLLz3V24smD_ykY4c2VAZttbxi0XLd3M9k_EhHVlrIbd9QHYO9bb-zOmTYS5oDakAeNjNKrm99oInVGt4ZYs3Jcx3omQp7ED5bVrsFZ7WF3z-kTlY">
+<div class="absolute top-1 left-1 bg-surface-container-lowest/90 px-1 py-0.5 rounded text-[10px] font-label-sm text-primary">
+            1974
+          </div>
+</div>
+<!-- Conteúdo Principal -->
+<div class="flex flex-col flex-1 min-w-0 justify-between py-0.5">
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm px-2 py-0.5 rounded-full">
+                Slasher Clássico
+              </span>
+<div class="flex items-center text-primary-container font-label-sm text-label-sm bg-surface-container-lowest px-1.5 py-0.5 rounded-full">
+<span class="material-symbols-outlined text-[14px] mr-0.5 text-primary-container" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+                7.9
+              </div>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate mt-1">O Massacre da Serra Elétrica</h2>
+</div>
+<!-- Status de Visualização -->
+<div class="flex items-center gap-space-xs mt-2">
+<span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>
+<span class="font-label-sm text-label-sm text-tertiary">Assistido em 31/Out</span>
+</div>
+</div>
+<!-- Ação Rápida de Remoção: Mínimo 48x48px WCAG AAA -->
+<button aria-label="Remover O Massacre da Serra Elétrica" class="btn-remove min-w-[48px] min-h-[48px] w-12 h-12 rounded-xl bg-surface-container-high text-error hover:bg-error-container hover:text-on-error-container flex items-center justify-center shrink-0 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[22px]">delete</span>
+</button>
+</div>
+<!-- Área Privada Desbloqueável (Anotação Secreta) -->
+<div class="vault-content hidden pt-space-xs">
+<div class="bg-surface-container-lowest rounded-lg p-space-sm flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wide">Anotação Privada</span>
+<span class="material-symbols-outlined text-[14px] text-primary">visibility</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic">
+            "A atmosfera crua e o design sonoro documental continuam impecáveis. Rever na escuridão total no Dia das Bruxas elevou a experiência."
+          </p>
+</div>
+</div>
+</article>
+<!-- Item 2: Midsommar: O Mal Não Espera a Noite -->
+<article class="secret-item bg-surface-container rounded-xl p-space-md shadow-md flex flex-col gap-space-sm transition-all duration-200" data-category="towatch" data-score="8.1">
+<div class="flex items-start gap-space-md">
+<!-- Poster Thumbnail -->
+<div class="relative w-20 h-28 rounded-lg overflow-hidden shrink-0 bg-surface-container-highest shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Cinematic folk horror poster aesthetic with pastoral Swedish meadow bathed in eerie blinding bright sunlight contrasting with disturbing occult pagan floral wreath arrangements" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChZYyen2TaxfXs0FFFXCkw-6bXWTnfykRZ8NwqeqSg3GaYNwH6HMWzlkXKM233p6IBBHgUKSnfyw6ujX3zAbry0l4hwZ42__kLY5Nug9zTsLkX4rOtDnYw1RJazeFqodCFZG4i8nlB-sX85nzHIRGSfYbF6LPypEGIr0hrvRwfhxs59Z021RQKLjHZeD3yxI84AMtG6aiwy_oCQkxyan-mq5Yu18Wlj-RgDlbpGRs">
+<div class="absolute top-1 left-1 bg-surface-container-lowest/90 px-1 py-0.5 rounded text-[10px] font-label-sm text-primary">
+            2019
+          </div>
+</div>
+<!-- Conteúdo Principal -->
+<div class="flex flex-col flex-1 min-w-0 justify-between py-0.5">
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm px-2 py-0.5 rounded-full">
+                Folk Horror
+              </span>
+<div class="flex items-center text-primary-container font-label-sm text-label-sm bg-surface-container-lowest px-1.5 py-0.5 rounded-full">
+<span class="material-symbols-outlined text-[14px] mr-0.5 text-primary-container" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+                8.1
+              </div>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate mt-1">Midsommar: O Mal Não Espera a Noite</h2>
+</div>
+<!-- Status de Visualização -->
+<div class="flex items-center gap-space-xs mt-2">
+<span class="material-symbols-outlined text-[16px] text-primary-container">bookmark</span>
+<span class="font-label-sm text-label-sm text-primary-container">Quero Assistir</span>
+</div>
+</div>
+<!-- Ação Rápida de Remoção: Mínimo 48x48px WCAG AAA -->
+<button aria-label="Remover Midsommar" class="btn-remove min-w-[48px] min-h-[48px] w-12 h-12 rounded-xl bg-surface-container-high text-error hover:bg-error-container hover:text-on-error-container flex items-center justify-center shrink-0 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[22px]">delete</span>
+</button>
+</div>
+<!-- Área Privada Desbloqueável (Anotação Secreta) -->
+<div class="vault-content hidden pt-space-xs">
+<div class="bg-surface-container-lowest rounded-lg p-space-sm flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wide">Anotação Privada</span>
+<span class="material-symbols-outlined text-[14px] text-primary">visibility</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic">
+            "Recomendado no clube de cinema da meia-noite. Assistir à versão estendida do diretor durante o próximo solstício."
+          </p>
+</div>
+</div>
+</article>
+<!-- Item 3: A Bruxa da Floresta -->
+<article class="secret-item bg-surface-container rounded-xl p-space-md shadow-md flex flex-col gap-space-sm transition-all duration-200" data-category="towatch" data-score="8.2">
+<div class="flex items-start gap-space-md">
+<!-- Poster Thumbnail -->
+<div class="relative w-20 h-28 rounded-lg overflow-hidden shrink-0 bg-surface-container-highest shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Dark misty pine forest at twilight with a lone shadowed silhouette between gnarly twisted branches, purple and deep charcoal ambiance, psychological thriller cinematography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGpUJh8_dJIguYRdcMZe3UWUTe2FsE54An0a18hzERQhm6mpZmJYh1GDuORxXSSO5wJzyXbNZKUva55xFzibv-2hqHpVImArmnk9ojcUpIX9U6qRnMTTDU7LAoW0wqLp1mvawY7rOiFmnOes9X-yXYBJQq9KFjEF8pNiWEf-CCaPa-Z1KKqR8ky-lF4WuDqTKzYiUumongBD4PdaE1DKK_2z52ULPm-eUiBBITgbk">
+<div class="absolute top-1 left-1 bg-surface-container-lowest/90 px-1 py-0.5 rounded text-[10px] font-label-sm text-primary">
+            2024
+          </div>
+</div>
+<!-- Conteúdo Principal -->
+<div class="flex flex-col flex-1 min-w-0 justify-between py-0.5">
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm px-2 py-0.5 rounded-full">
+                Terror Psicológico
+              </span>
+<div class="flex items-center text-primary-container font-label-sm text-label-sm bg-surface-container-lowest px-1.5 py-0.5 rounded-full">
+<span class="material-symbols-outlined text-[14px] mr-0.5 text-primary-container" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+                8.2
+              </div>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate mt-1">A Bruxa da Floresta</h2>
+</div>
+<!-- Status de Visualização -->
+<div class="flex items-center gap-space-xs mt-2">
+<span class="material-symbols-outlined text-[16px] text-tertiary">play_circle</span>
+<span class="font-label-sm text-label-sm text-tertiary">Em andamento (42m)</span>
+</div>
+</div>
+<!-- Ação Rápida de Remoção: Mínimo 48x48px WCAG AAA -->
+<button aria-label="Remover A Bruxa da Floresta" class="btn-remove min-w-[48px] min-h-[48px] w-12 h-12 rounded-xl bg-surface-container-high text-error hover:bg-error-container hover:text-on-error-container flex items-center justify-center shrink-0 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[22px]">delete</span>
+</button>
+</div>
+<!-- Área Privada Desbloqueável (Anotação Secreta) -->
+<div class="vault-content hidden pt-space-xs">
+<div class="bg-surface-container-lowest rounded-lg p-space-sm flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wide">Anotação Privada</span>
+<span class="material-symbols-outlined text-[14px] text-primary">visibility</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic">
+            "Pausa no episódio 3. O mistério da cabana abandonada precisa ser assistido com fones para captar os sussurros binaurais."
+          </p>
+</div>
+</div>
+</article>
+</div>
+<!-- Estado Vazio / Delícia caso todos itens sejam removidos -->
+<div class="hidden flex-col items-center justify-center py-space-xl text-center gap-space-sm bg-surface-container rounded-xl p-space-md" id="empty-state">
+<div class="w-16 h-16 rounded-full bg-surface-container-highest flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[32px]">shield_moon</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Cofre de Segredos Vazio</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-[280px]">Nenhum título oculto no momento. Salve novos calafrios diretamente do catálogo.</p>
+<button class="mt-space-xs min-h-[48px] px-space-md bg-secondary-container text-on-secondary-container font-label-lg text-label-lg rounded-xl flex items-center justify-center gap-space-xs active:scale-95 transition-transform" id="btn-restore">
+<span class="material-symbols-outlined text-[20px]">refresh</span>
+      Restaurar Demonstração
+    </button>
+</div>
+</div>
+<script>
+  (function initSecretWatchlist() {
+    let unlocked = false;
+    let currentFilter = 'all';
+
+    const bioBtn = document.getElementById('bio-toggle-btn');
+    const bioBtnLabel = document.getElementById('bio-btn-label');
+    const bioCard = document.getElementById('bio-security-card');
+    const bioIconRing = document.getElementById('bio-icon-ring');
+    const bioStatusBadge = document.getElementById('session-status-badge');
+    const vaultContents = document.querySelectorAll('.vault-content');
+    const toast = document.getElementById('secret-toast');
+    const toastMsg = document.getElementById('toast-message');
+    const toastClose = document.getElementById('toast-close');
+    const emptyState = document.getElementById('empty-state');
+    const secretList = document.getElementById('secret-items-list');
+
+    // Desbloqueio Biométrico Tátil
+    bioBtn?.addEventListener('click', () => {
+      unlocked = !unlocked;
+      if (unlocked) {
+        bioCard.classList.remove('bg-surface-container-high');
+        bioCard.classList.add('bg-surface-container-highest');
+        bioIconRing.classList.remove('text-primary-container');
+        bioIconRing.classList.add('text-secondary-fixed');
+        bioBtnLabel.textContent = 'Bloquear Cofre Novamente';
+        bioBtn.classList.remove('bg-primary-container', 'text-on-primary-container');
+        bioBtn.classList.add('bg-surface-container', 'text-on-surface');
+        bioStatusBadge.textContent = '3 anotações confidenciais visíveis';
+        bioStatusBadge.classList.replace('text-tertiary', 'text-primary-container');
+
+        vaultContents.forEach(el => el.classList.remove('hidden'));
+
+        showToast('Identidade verificada: Anotações pessoais reveladas.');
+      } else {
+        bioCard.classList.remove('bg-surface-container-highest');
+        bioCard.classList.add('bg-surface-container-high');
+        bioIconRing.classList.add('text-primary-container');
+        bioIconRing.classList.remove('text-secondary-fixed');
+        bioBtnLabel.textContent = 'Desbloquear com Biometria / Touch ID';
+        bioBtn.classList.add('bg-primary-container', 'text-on-primary-container');
+        bioBtn.classList.remove('bg-surface-container', 'text-on-surface');
+        bioStatusBadge.textContent = '3 itens bloqueados com sucesso';
+        bioStatusBadge.classList.replace('text-primary-container', 'text-tertiary');
+
+        vaultContents.forEach(el => el.classList.add('hidden'));
+
+        showToast('Cofre trancado. Visibilidade restrita.');
+      }
+    });
+
+    // Toast de Feedback
+    function showToast(text) {
+      if (!toast) return;
+      toastMsg.textContent = text;
+      toast.classList.remove('hidden');
+      setTimeout(() => {
+        toast.classList.add('hidden');
+      }, 3500);
+    }
+
+    toastClose?.addEventListener('click', () => {
+      toast.classList.add('hidden');
+    });
+
+    // Filtros Rápidos (Todos, Assistidos, Para Ver)
+    const filterTabs = {
+      all: document.getElementById('filter-all'),
+      watched: document.getElementById('filter-watched'),
+      towatch: document.getElementById('filter-towatch')
+    };
+
+    function setFilter(type) {
+      currentFilter = type;
+      Object.keys(filterTabs).forEach(key => {
+        const tab = filterTabs[key];
+        if (key === type) {
+          tab.classList.remove('bg-surface-container', 'text-on-surface-variant');
+          tab.classList.add('bg-primary-container', 'text-on-primary-container');
+          tab.setAttribute('aria-selected', 'true');
+        } else {
+          tab.classList.remove('bg-primary-container', 'text-on-primary-container');
+          tab.classList.add('bg-surface-container', 'text-on-surface-variant');
+          tab.setAttribute('aria-selected', 'false');
+        }
+      });
+
+      const items = document.querySelectorAll('.secret-item');
+      let visibleCount = 0;
+      items.forEach(item => {
+        const itemCat = item.getAttribute('data-category');
+        if (type === 'all' || itemCat === type) {
+          item.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+
+      checkEmptyState(visibleCount);
+    }
+
+    filterTabs.all?.addEventListener('click', () => setFilter('all'));
+    filterTabs.watched?.addEventListener('click', () => setFilter('watched'));
+    filterTabs.towatch?.addEventListener('click', () => setFilter('towatch'));
+
+    // Botões de Remoção Rápida
+    document.querySelectorAll('.btn-remove').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const card = e.currentTarget.closest('.secret-item');
+        if (card) {
+          card.classList.add('opacity-0', 'scale-95');
+          setTimeout(() => {
+            card.remove();
+            showToast('Título removido da sua Lista Secreta.');
+            const remaining = document.querySelectorAll('.secret-item').length;
+            checkEmptyState(remaining);
+            if (bioStatusBadge) {
+              bioStatusBadge.textContent = `${remaining} itens na sessão`;
+            }
+          }, 200);
+        }
+      });
+    });
+
+    // Ordenação por Nota (Toggle Simples)
+    let sortAsc = false;
+    document.getElementById('sort-trigger')?.addEventListener('click', () => {
+      sortAsc = !sortAsc;
+      const items = Array.from(document.querySelectorAll('.secret-item'));
+      items.sort((a, b) => {
+        const scoreA = parseFloat(a.getAttribute('data-score') || '0');
+        const scoreB = parseFloat(b.getAttribute('data-score') || '0');
+        return sortAsc ? scoreA - scoreB : scoreB - scoreA;
+      });
+      items.forEach(el => secretList.appendChild(el));
+      showToast(sortAsc ? 'Ordenado por nota (Menor para Maior)' : 'Ordenado por nota (Maior para Menor)');
+    });
+
+    function checkEmptyState(count) {
+      if (count === 0) {
+        emptyState.classList.remove('hidden');
+        emptyState.classList.add('flex');
+      } else {
+        emptyState.classList.add('hidden');
+        emptyState.classList.remove('flex');
+      }
+    }
+
+    // Botão de Restaurar Demonstração
+    document.getElementById('btn-restore')?.addEventListener('click', () => {
+      location.reload();
+    });
+  })();
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-4px_24px_rgba(0,0,0,0.6)]" data-active-classes="text-primary-container font-headline-sm"><div class="flex items-center justify-around h-16 px-gutter"><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-surface-variant transition-colors" data-path="inicio" href="#"><span class="material-symbols-outlined text-[24px]">movie</span><span class="font-label-sm text-label-sm mt-0.5">Início</span></a><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 transition-colors text-primary-container font-headline-sm" data-path="watchlist" href="#"><span class="material-symbols-outlined text-[24px]">lock</span><span class="font-label-sm text-label-sm mt-0.5">Watchlist</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 text-on-surface-variant transition-colors" data-path="perfil" href="#"><span class="material-symbols-outlined text-[24px]">person</span><span class="font-label-sm text-label-sm mt-0.5">Perfil</span></a></div></nav>
+
+
+
+</body></html>
